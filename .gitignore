@@ -1,0 +1,5 @@
+*.pref
+*.rxuser
+node_modules/
+screenshots/
+videos/
