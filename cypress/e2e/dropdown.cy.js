@@ -1,7 +1,7 @@
 describe('TestSuite ', () => {
     it('Test case', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-      
+
       //Static dropdowns
       cy.get('select').select("option1").should('have.value', 'option1')
 
@@ -13,6 +13,7 @@ describe('TestSuite ', () => {
           $el.click()
         }
       })
+      //Dynamic Dropdown assertion
       cy.get("#autocomplete").should('have.value', 'United States (USA)')
     })
   })
