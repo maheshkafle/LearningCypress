@@ -1,5 +1,5 @@
-describe('TestSuite ', () => {
-    it('Test case', () => {
+describe('Test', () => {
+    it('web table entries', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
       //CSS Selector combining parent to child, nth-child keyword
       cy.get('tr td:nth-child(2)').each( ($el, index, $list) => {

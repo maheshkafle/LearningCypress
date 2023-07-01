@@ -1,5 +1,5 @@
-describe('TestSuite ', () => {
-  it('Test case', () => {
+describe('Test', () => {
+  it('search and click the product in ecommerce application', () => {
     cy.visit('https://rahulshettyacademy.com/seleniumPractise/#/')
     cy.get(".search-keyword").type('ca')
     cy.wait(2000)
