@@ -9,4 +9,7 @@ module.exports = defineConfig({
     viewportWidth:1440,
     viewportHeight:900
   },
+  "modifyObstructiveCode": true,
+  "experimentalSourceRewriting":false,
+  "chromeWebSecurity": true
 });
