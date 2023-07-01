@@ -1,5 +1,5 @@
 describe('Test', () => {
-    it('Open child window', () => {
+    it('open child window', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
       //Here cypress assumes opening new child window it equivalent to child window in same tab. This is why get locator is different. i.e #opentab not #openwindow
       cy.get("#opentab").then( (el)=>{

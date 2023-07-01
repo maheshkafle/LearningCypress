@@ -1,5 +1,5 @@
-describe('TestSuite ', () => {
-    it('Test case', () => {
+describe('Test', () => {
+    it('static and dynamic dropdowns', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
 
       //Static dropdowns

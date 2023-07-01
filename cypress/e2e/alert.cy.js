@@ -1,5 +1,5 @@
-describe('TestSuite ', () => {
-    it('Test case', () => {
+describe('Test', () => {
+    it('alert and cofirmation dialog', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
       cy.get("#name").type("Mahesh")
       cy.get("#alertbtn").click()

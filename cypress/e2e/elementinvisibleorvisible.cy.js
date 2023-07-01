@@ -1,5 +1,5 @@
-describe('TestSuite ', () => {
-    it('Test case', () => {
+describe('Test', () => {
+    it('visible and invisible webelements', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
       cy.get("#displayed-text").should("be.visible")
       cy.get("#hide-textbox").click()
