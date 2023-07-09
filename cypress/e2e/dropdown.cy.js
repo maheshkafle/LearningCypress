@@ -10,7 +10,7 @@ describe('Test', () => {
       cy.get(".ui-menu-item div").each( ($el, index, $list) =>{
         cy.log($el.text())
         if($el.text()==="United States (USA)"){
-          $el.click()
+          cy.wrap($el).click() //cy.wrap is need bundle el.
         }
       })
       //Dynamic Dropdown assertion
