@@ -1,4 +1,4 @@
-describe('Test', () => {
+describe('TestSuite', () => {
     it('alert and cofirmation dialog', () => {
       cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
       cy.get("#name").type("Mahesh")
